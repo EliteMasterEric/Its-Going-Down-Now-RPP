@@ -19,21 +19,9 @@ local musicCharDataB = {
     [PlayerType.PLAYER_CAIN_B] = {"itsgoingdownnow-drop-slow"}
 }
 
--- Add a given music pack to every quality
----@param musicChars table A table of music names specific to each character
----@param packName string A readable name for the music pack
----@param musicDefault table A table of music names to use for the default character
-local function addMusicPackToAll(musicChars, packName, musicDefault)
-    ReactionPack.AddTraumaMusicPack(musicChars, packName, musicDefault)
-    ReactionPack.AddUghMusicPack(musicChars, packName, musicDefault)
-    ReactionPack.AddNeutralMusicPack(musicChars, packName, musicDefault)
-    ReactionPack.AddPogMusicPack(musicChars, packName, musicDefault)
-    ReactionPack.AddDanceMusicPack(musicChars, packName, musicDefault)
-end
-
 local function registerReactions()
-    addMusicPackToAll(musicCharDataA, musicPackA, musicDataA)
-    addMusicPackToAll(musicCharDataB, musicPackB, musicDataB)
+    ReactionPack.AddDanceMusicPack(musicCharDataA, musicPackA, musicDataA)
+    ReactionPack.AddDanceMusicPack(musicCharDataB, musicPackB, musicDataB)
 end
 
 -- Register the reaction pack
