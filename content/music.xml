@@ -1,0 +1,11 @@
+<music root="music/">
+
+    <!-- Standard versions -->
+	<track name="itsgoingdownnow" path="itsgoingdownnow/standard.ogg" loop="true" />
+	<track name="itsgoingdownnow-drop" path="itsgoingdownnow/standard-drop.ogg" loop="true" />
+
+	<!-- Tainted Cain versions -->
+	<track name="itsgoingdownnow-slow" path="itsgoingdownnow/slow.ogg" loop="true" />
+	<track name="itsgoingdownnow-drop-slow" path="itsgoingdownnow/slow-drop.ogg" loop="true" />
+	
+</music>

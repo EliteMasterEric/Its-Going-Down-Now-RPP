@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>It's Going Down Now for Reaction Port Pack</name>
+    <directory>its_going_down_now_rpp</directory>
+    <id>0</id>
+    <description>Adds "It's Going Down Now" from Persona 3 Reload to Reaction Port Pack, allowing it to be used as music for all qualities.
+
+Includes both the full intro version and the drop version.
+
+Original mod by Peridarren found here: https://steamcommunity.com/sharedfiles/filedetails/?id=3426998159</description>
+    <version>1.0</version>
+    <visibility>Public</visibility>
+    <tag id="Music"/>
+    <tag id="Sound Effects"/>
+</metadata>
